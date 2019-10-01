@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@drawable/background2"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="-5dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+    <ImageView
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/ieeeLogo"
+            android:contentDescription="@string/nav_header_desc"
+            android:id="@+id/imageView"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1C327C"
+            android:text="IEEE GBPEC Student Branch"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nav_header_subtitle"
+            android:id="@+id/textView"/>-->
+
+</LinearLayout>
