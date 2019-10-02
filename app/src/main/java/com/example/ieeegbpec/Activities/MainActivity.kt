@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
 import androidx.fragment.app.Fragment
+import com.example.ieeegbpec.Fragments.EventsFragment
 import com.example.ieeegbpec.Fragments.HomeFragment
 import com.example.ieeegbpec.R
 import kotlinx.android.synthetic.main.activity_main.*
@@ -74,7 +75,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 fragment = HomeFragment()
             }
             R.id.nav_events -> {
-
+                fragment = EventsFragment()
             }
             R.id.nav_achievements -> {
 

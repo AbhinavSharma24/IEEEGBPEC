@@ -10,6 +10,8 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 import com.example.ieeegbpec.R;
 import com.squareup.picasso.Picasso;
 
@@ -37,6 +39,13 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getActivity(), "Events", Toast.LENGTH_SHORT).show();
+
+                Fragment fragment = new EventsFragment();
+                FragmentManager fragmentManager = getFragmentManager();
+                assert fragmentManager != null;
+                FragmentTransaction ft = fragmentManager.beginTransaction();
+                ft.replace(R.id.screen_area, fragment);
+                ft.commit();
             }
         });
         view.findViewById(R.id.card2).setOnClickListener(new View.OnClickListener() {
