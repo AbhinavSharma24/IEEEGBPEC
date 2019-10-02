@@ -10,6 +10,8 @@ import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import androidx.fragment.app.FragmentTransaction
+import com.example.ieeegbpec.Fragments.EventsFragment
 import com.example.ieeegbpec.R
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_main.*
@@ -67,12 +69,15 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         // Handle navigation view item clicks here.
+        val ft :FragmentTransaction = supportFragmentManager.beginTransaction()
         when (item.itemId) {
             R.id.nav_home -> {
 
             }
             R.id.nav_events -> {
-
+                supportFragmentManager.beginTransaction()
+                    .replace(R.id.container, EventsFragment())
+                    .commit()
             }
             R.id.nav_achievements -> {
 
