@@ -27,7 +27,7 @@
 
             <ImageView
                     android:layout_width="match_parent"
-                    android:src="@drawable/background"
+                    android:id="@+id/teambackground"
                     android:scaleType="centerCrop"
                     android:layout_height="180dp"/>
             
@@ -62,7 +62,7 @@
                 android:orientation="horizontal"
                 android:layout_height="wrap_content">
 
-        <ImageView
+        <de.hdodenhof.circleimageview.CircleImageView
                 android:layout_height="100dp"
                 android:src="@drawable/person2"
                 android:layout_width="100dp"
@@ -85,7 +85,7 @@
 
                 <TextView
                        android:layout_width="wrap_content"
-                       android:text="President"
+                       android:text="Chairperson"
                        android:textSize="16sp"
                        android:textStyle="bold"
                        android:textColor="@color/colorPrimary"
@@ -107,7 +107,7 @@
                 android:orientation="horizontal"
                 android:layout_height="wrap_content">
 
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_height="100dp"
                     android:src="@drawable/person2"
                     android:layout_width="100dp"
@@ -130,7 +130,7 @@
 
                 <TextView
                         android:layout_width="wrap_content"
-                        android:text="Vice President"
+                        android:text="Vice Chairperson"
                         android:textSize="16sp"
                         android:textStyle="bold"
                         android:textColor="@color/colorPrimary"
@@ -152,7 +152,7 @@
                 android:orientation="horizontal"
                 android:layout_height="wrap_content">
 
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_height="100dp"
                     android:src="@drawable/person2"
                     android:layout_width="100dp"
@@ -197,9 +197,10 @@
                 android:orientation="horizontal"
                 android:layout_height="wrap_content">
 
-            <ImageView
+
+            <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_height="100dp"
-                    android:src="@drawable/person2"
+                    android:src="@drawable/abhinav"
                     android:layout_width="100dp"
                     android:padding="8dp"/>
 
@@ -220,7 +221,7 @@
 
                 <TextView
                         android:layout_width="wrap_content"
-                        android:text="Treasure"
+                        android:text="Treasurer"
                         android:textSize="16sp"
                         android:textStyle="bold"
                         android:textColor="@color/colorPrimary"
@@ -242,7 +243,7 @@
                 android:orientation="horizontal"
                 android:layout_height="wrap_content">
 
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_height="100dp"
                     android:src="@drawable/person2"
                     android:layout_width="100dp"
@@ -287,7 +288,7 @@
                 android:orientation="horizontal"
                 android:layout_height="wrap_content">
 
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_height="100dp"
                     android:src="@drawable/person2"
                     android:layout_width="100dp"
@@ -332,7 +333,7 @@
                 android:orientation="horizontal"
                 android:layout_height="wrap_content">
 
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_height="100dp"
                     android:src="@drawable/person2"
                     android:layout_width="100dp"

@@ -3,6 +3,7 @@ package com.example.ieeegbpec.Activities
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.ieeegbpec.R
+import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_team.*
 
 class TeamActivity : AppCompatActivity() {
@@ -13,6 +14,8 @@ class TeamActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
+        Picasso.get().load("http://www.thepbo.com/wp-content/uploads/2019/01/AdobeStock_177663020.jpeg").fit().centerCrop().into(teambackground)
     }
 
     override fun onSupportNavigateUp(): Boolean {

@@ -9,12 +9,11 @@ import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
-import androidx.fragment.app.FragmentTransaction
+import androidx.fragment.app.Fragment
+import com.example.ieeegbpec.Fragments.HomeFragment
 import com.example.ieeegbpec.R
-import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
-import kotlinx.android.synthetic.main.content_main.*
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
@@ -32,11 +31,6 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         toggle.syncState()
 
         //Picasso.get().load("https://upload.wikimedia.org/wikipedia/en/thumb/2/21/IEEE_logo.svg/1200px-IEEE_logo.svg.png").fit().centerCrop().into(ieeelogo)
-        Picasso.get().load("http://prankster101.com/newsite/wp-content/uploads/event-icon.png").fit().centerCrop().into(icon_events)
-        Picasso.get().load("https://www.trzcacak.rs/myfile/full/197-1972262_carriers-win-big-with-uncrash-success-flat-icon.png").fit().centerCrop().into(icon_achievements)
-        Picasso.get().load("https://icon-library.net/images/projects-icon/projects-icon-3.jpg").fit().centerCrop().into(icon_projects)
-        Picasso.get().load("http://sites.ieee.org/sb-wayne/files/2016/03/cropped-IEEE-Icon.png").fit().centerCrop().into(icon_ieee)
-        Picasso.get().load("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTbfX3jgJQqDlMevbu0QLHWXdPPiXZ1WXNuzIyld8a4S0eNp9W7g").fit().centerCrop().into(icon_resources)
 
         nav_view.setNavigationItemSelectedListener(this)
     }
@@ -74,9 +68,10 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
+        var fragment : Fragment? = null
         when (item.itemId) {
             R.id.nav_home -> {
-
+                fragment = HomeFragment()
             }
             R.id.nav_events -> {
 
@@ -99,6 +94,14 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.nav_aboutApp -> {
                 startActivity(Intent(this@MainActivity, AboutActivity::class.java))
             }
+        }
+
+        if(fragment != null) {
+            val fragmentManager = supportFragmentManager
+            val ft = fragmentManager.beginTransaction()
+
+            ft.replace(R.id.screen_area, fragment)
+            ft.commit()
         }
 
         drawer_layout.closeDrawer(GravityCompat.START)
