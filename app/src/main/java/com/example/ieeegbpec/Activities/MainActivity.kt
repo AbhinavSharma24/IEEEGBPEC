@@ -3,7 +3,6 @@ package com.example.ieeegbpec.Activities
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
-import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
 import androidx.core.view.GravityCompat
 import androidx.appcompat.app.ActionBarDrawerToggle
@@ -11,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
 import androidx.fragment.app.FragmentTransaction
-import com.example.ieeegbpec.Fragments.EventsFragment
 import com.example.ieeegbpec.R
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_main.*
@@ -75,9 +73,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
             }
             R.id.nav_events -> {
-                supportFragmentManager.beginTransaction()
-                    .replace(R.id.container, EventsFragment())
-                    .commit()
+                
             }
             R.id.nav_achievements -> {
 
