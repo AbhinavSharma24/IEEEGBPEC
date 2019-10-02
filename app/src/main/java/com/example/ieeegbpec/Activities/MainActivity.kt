@@ -59,21 +59,27 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
-        when (item.itemId) {
-            R.id.action_settings -> return true
-            else -> return super.onOptionsItemSelected(item)
+        return when (item.itemId) {
+            R.id.action_feedback -> {
+                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com")))
+                true
+            }
+            R.id.action_rateus -> {
+                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com")))
+                true
+            }
+            else ->
+                super.onOptionsItemSelected(item)
         }
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
-        // Handle navigation view item clicks here.
-        val ft :FragmentTransaction = supportFragmentManager.beginTransaction()
         when (item.itemId) {
             R.id.nav_home -> {
 
             }
             R.id.nav_events -> {
-                
+
             }
             R.id.nav_achievements -> {
 
@@ -85,14 +91,13 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
             }
             R.id.nav_joinieee -> {
-                val i = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.ieee.org/membership/join/index.html?WT.mc_id=hc_join"))
-                startActivity(i)
+                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.ieee.org/membership/join/index.html?WT.mc_id=hc_join")))
             }
             R.id.nav_team -> {
-
+                startActivity(Intent(this@MainActivity, TeamActivity::class.java))
             }
             R.id.nav_aboutApp -> {
-
+                startActivity(Intent(this@MainActivity, AboutActivity::class.java))
             }
         }
 
