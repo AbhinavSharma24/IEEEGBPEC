@@ -35,8 +35,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         val fragment = HomeFragment()
         val fragmentManager = supportFragmentManager
         val ft = fragmentManager.beginTransaction()
-        ft.replace(R.id.screen_area, fragment)
-        ft.commit()
+        ft.replace(R.id.screen_area, fragment).commit()
     }
 
     override fun onBackPressed() {
@@ -48,15 +47,11 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        // Inflate the menu; this adds items to the action bar if it is present.
         menuInflater.inflate(R.menu.main, menu)
         return true
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
         return when (item.itemId) {
             R.id.action_feedback -> {
                 startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com")))
@@ -103,9 +98,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         if(fragment != null) {
             val fragmentManager = supportFragmentManager
             val ft = fragmentManager.beginTransaction()
-
-            ft.replace(R.id.screen_area, fragment)
-            ft.commit()
+            ft.replace(R.id.screen_area, fragment).commit()
         }
 
         drawer_layout.closeDrawer(GravityCompat.START)

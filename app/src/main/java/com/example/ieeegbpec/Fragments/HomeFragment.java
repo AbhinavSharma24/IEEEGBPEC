@@ -44,8 +44,7 @@ public class HomeFragment extends Fragment {
                 FragmentManager fragmentManager = getFragmentManager();
                 assert fragmentManager != null;
                 FragmentTransaction ft = fragmentManager.beginTransaction();
-                ft.replace(R.id.screen_area, fragment);
-                ft.commit();
+                ft.replace(R.id.screen_area, fragment).commit();
             }
         });
         view.findViewById(R.id.card2).setOnClickListener(new View.OnClickListener() {
@@ -57,8 +56,7 @@ public class HomeFragment extends Fragment {
                 FragmentManager fragmentManager = getFragmentManager();
                 assert fragmentManager != null;
                 FragmentTransaction ft = fragmentManager.beginTransaction();
-                ft.replace(R.id.screen_area, fragment);
-                ft.commit();
+                ft.replace(R.id.screen_area, fragment).commit();
             }
         });
         view.findViewById(R.id.card3).setOnClickListener(new View.OnClickListener() {
@@ -70,8 +68,7 @@ public class HomeFragment extends Fragment {
                 FragmentManager fragmentManager = getFragmentManager();
                 assert fragmentManager != null;
                 FragmentTransaction ft = fragmentManager.beginTransaction();
-                ft.replace(R.id.screen_area, fragment);
-                ft.commit();
+                ft.replace(R.id.screen_area, fragment).commit();
             }
         });
         view.findViewById(R.id.card4).setOnClickListener(new View.OnClickListener() {
@@ -83,8 +80,7 @@ public class HomeFragment extends Fragment {
                 FragmentManager fragmentManager = getFragmentManager();
                 assert fragmentManager != null;
                 FragmentTransaction ft = fragmentManager.beginTransaction();
-                ft.replace(R.id.screen_area, fragment);
-                ft.commit();
+                ft.replace(R.id.screen_area, fragment).commit();
             }
         });
         view.findViewById(R.id.card5).setOnClickListener(new View.OnClickListener() {
