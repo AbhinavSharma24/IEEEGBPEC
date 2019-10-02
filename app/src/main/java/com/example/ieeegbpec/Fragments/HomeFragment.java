@@ -52,18 +52,39 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getActivity(), "Achievements", Toast.LENGTH_SHORT).show();
+
+                Fragment fragment = new AchievementsFragment();
+                FragmentManager fragmentManager = getFragmentManager();
+                assert fragmentManager != null;
+                FragmentTransaction ft = fragmentManager.beginTransaction();
+                ft.replace(R.id.screen_area, fragment);
+                ft.commit();
             }
         });
         view.findViewById(R.id.card3).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getActivity(), "Projects", Toast.LENGTH_SHORT).show();
+
+                Fragment fragment = new ProjectsFragment();
+                FragmentManager fragmentManager = getFragmentManager();
+                assert fragmentManager != null;
+                FragmentTransaction ft = fragmentManager.beginTransaction();
+                ft.replace(R.id.screen_area, fragment);
+                ft.commit();
             }
         });
         view.findViewById(R.id.card4).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getActivity(), "IEEE", Toast.LENGTH_SHORT).show();
+
+                Fragment fragment = new IEEEFragment();
+                FragmentManager fragmentManager = getFragmentManager();
+                assert fragmentManager != null;
+                FragmentTransaction ft = fragmentManager.beginTransaction();
+                ft.replace(R.id.screen_area, fragment);
+                ft.commit();
             }
         });
         view.findViewById(R.id.card5).setOnClickListener(new View.OnClickListener() {

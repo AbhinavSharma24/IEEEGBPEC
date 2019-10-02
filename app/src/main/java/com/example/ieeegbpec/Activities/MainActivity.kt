@@ -10,8 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
 import androidx.fragment.app.Fragment
-import com.example.ieeegbpec.Fragments.EventsFragment
-import com.example.ieeegbpec.Fragments.HomeFragment
+import com.example.ieeegbpec.Fragments.*
 import com.example.ieeegbpec.R
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
@@ -31,9 +30,13 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         drawer_layout.addDrawerListener(toggle)
         toggle.syncState()
 
-        //Picasso.get().load("https://upload.wikimedia.org/wikipedia/en/thumb/2/21/IEEE_logo.svg/1200px-IEEE_logo.svg.png").fit().centerCrop().into(ieeelogo)
-
         nav_view.setNavigationItemSelectedListener(this)
+
+        val fragment = HomeFragment()
+        val fragmentManager = supportFragmentManager
+        val ft = fragmentManager.beginTransaction()
+        ft.replace(R.id.screen_area, fragment)
+        ft.commit()
     }
 
     override fun onBackPressed() {
@@ -78,13 +81,13 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 fragment = EventsFragment()
             }
             R.id.nav_achievements -> {
-
+                fragment = AchievementsFragment()
             }
             R.id.nav_projects -> {
-
+                fragment = ProjectsFragment()
             }
             R.id.nav_ieee -> {
-
+                fragment = IEEEFragment()
             }
             R.id.nav_joinieee -> {
                 startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.ieee.org/membership/join/index.html?WT.mc_id=hc_join")))
