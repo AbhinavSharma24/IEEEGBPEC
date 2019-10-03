@@ -17,6 +17,8 @@ class AboutActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
+        background.background.alpha = 90
+
         share_app.setOnClickListener {
             Toast.makeText(this,"Feature coming soon !!!",Toast.LENGTH_SHORT).show()
         }

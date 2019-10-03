@@ -34,6 +34,7 @@ public class HomeFragment extends Fragment {
         Picasso.get().load("http://sites.ieee.org/sb-wayne/files/2016/03/cropped-IEEE-Icon.png").fit().centerCrop().into((ImageView) view.findViewById(R.id.icon_ieee));
         Picasso.get().load("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTbfX3jgJQqDlMevbu0QLHWXdPPiXZ1WXNuzIyld8a4S0eNp9W7g").fit().centerCrop().into((ImageView) view.findViewById(R.id.icon_resources));
 
+        view.findViewById(R.id.background).getBackground().setAlpha(90);
 
         view.findViewById(R.id.card1).setOnClickListener(new View.OnClickListener() {
             @Override
