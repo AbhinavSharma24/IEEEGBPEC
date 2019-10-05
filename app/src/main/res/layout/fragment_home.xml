@@ -3,7 +3,6 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:id="@+id/background"
-        android:background="@drawable/background2"
         android:layout_height="match_parent"
         xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout
@@ -18,9 +17,27 @@
             tools:context=".Activities.MainActivity"
             tools:ignore="PrivateResource">
 
+
+        <androidx.viewpager.widget.ViewPager
+                android:id="@+id/view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+        </androidx.viewpager.widget.ViewPager>
+
+
+        <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:text="@string/text_lorem"
+                android:padding="8dp"
+                android:layout_marginTop="15dp"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
         <ImageView
                 android:layout_width="match_parent"
-                android:layout_marginTop="-20dp"
+                android:layout_marginTop="-30dp"
                 android:src="@drawable/ieeelogo"
                 android:id="@+id/ieeelogo"
                 android:padding="20dp"
@@ -33,10 +50,67 @@
                 android:layout_marginTop="-43dp"
                 android:textStyle="bold"
                 android:textSize="29sp"
+                android:layout_marginBottom="10dp"
                 android:text="IEEE GBPEC Student Branch"
                 android:layout_height="wrap_content"/>
 
-        <androidx.cardview.widget.CardView
+        <TextView
+                android:text="@string/text_lorem"
+                android:padding="8dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:text="@string/text_lorem"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+                <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/teambackground"
+                android:layout_width="400dp"
+                android:layout_height="230dp"/>
+
+        <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:text="@string/text_lorem"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
+        <!--<ImageView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="-20dp"
+                        android:src="@drawable/ieeelogo"
+                        android:id="@+id/ieeelogo"
+                        android:padding="20dp"
+                        android:layout_height="200dp"/>
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:textColor="#1C327C"
+                        android:layout_marginTop="-43dp"
+                        android:textStyle="bold"
+                        android:textSize="29sp"
+                        android:text="IEEE GBPEC Student Branch"
+                        android:layout_height="wrap_content"/>-->
+
+        <!--<androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:padding="16dp"
                 android:layout_marginTop="25dp"
@@ -169,7 +243,7 @@
                     android:textSize="20dp"
                     android:layout_height="wrap_content" android:fontFamily="@font/decalk"/>
 
-        </androidx.cardview.widget.CardView>
+        </androidx.cardview.widget.CardView>-->
 
-    </LinearLayout>
-</ScrollView>
+<!--    </LinearLayout>
+</ScrollView>-->
