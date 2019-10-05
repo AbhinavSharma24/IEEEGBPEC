@@ -17,7 +17,6 @@ public class CustomSwipe extends PagerAdapter {
     private int[] image_resources = {R.drawable.technology, R.drawable.background,
             R.drawable.teambackground2, R.drawable.teambackground};
     private Context ctx;
-    private LayoutInflater layoutInflater;
 
     public CustomSwipe(Context ctx){
         this.ctx = ctx;
@@ -36,11 +35,11 @@ public class CustomSwipe extends PagerAdapter {
     @NonNull
     @Override
     public Object instantiateItem(@NonNull ViewGroup container, int position) {
-        layoutInflater = (LayoutInflater) ctx.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        LayoutInflater layoutInflater = (LayoutInflater) ctx.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View item_view = layoutInflater.inflate(R.layout.custom_swipe, container, false);
         ImageView imageView = item_view.findViewById(R.id.swipe_image);
         imageView.setImageResource(image_resources[position]);
-        container.addView(imageView);
+        container.addView(item_view);
 
         return item_view;
     }
