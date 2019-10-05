@@ -33,6 +33,7 @@ public class HomeFragment extends Fragment {
 
         ViewPager viewPager = view.findViewById(R.id.view_pager);
         CustomSwipe customSwipe = new CustomSwipe(getActivity());
+
         viewPager.setAdapter(customSwipe);
 
         /*Picasso.get().load("http://prankster101.com/newsite/wp-content/uploads/event-icon.png").fit().centerCrop().into((ImageView) view.findViewById(R.id.icon_events));
