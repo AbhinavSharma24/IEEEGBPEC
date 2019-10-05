@@ -15,8 +15,6 @@ class TeamActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        background.background.alpha = 100
-
         Picasso.get().load("http://www.thepbo.com/wp-content/uploads/2019/01/AdobeStock_177663020.jpeg").fit().centerCrop().into(teambackground)
     }
 

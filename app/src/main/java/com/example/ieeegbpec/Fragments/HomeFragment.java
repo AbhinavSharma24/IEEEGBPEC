@@ -6,18 +6,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.Toast;
+import android.widget.ViewFlipper;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
-import androidx.viewpager.widget.ViewPager;
-import com.example.ieeegbpec.Adapters.CustomSwipe;
 import com.example.ieeegbpec.R;
-import com.squareup.picasso.Picasso;
 
 public class HomeFragment extends Fragment {
+
+    private ViewFlipper viewFlipper;
 
     @SuppressLint("InflateParams")
     @Nullable
@@ -30,11 +27,39 @@ public class HomeFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
+        int[] image_resources = {R.drawable.technology3, R.drawable.technology,
+                R.drawable.technology2, R.drawable.technology4};
 
-        ViewPager viewPager = view.findViewById(R.id.view_pager);
+        viewFlipper = view.findViewById(R.id.view_flipper);
+
+        for(int image: image_resources){
+            FlipperImage(image);
+        }
+    }
+
+    private void FlipperImage(int image){
+        ImageView imageView = new ImageView(getActivity());
+        imageView.setBackgroundResource(image);
+
+        viewFlipper.addView(imageView);
+        viewFlipper.setFlipInterval(3000);
+        viewFlipper.setAutoStart(true);
+
+        viewFlipper.setInAnimation(getActivity(), android.R.anim.slide_in_left);
+        viewFlipper.setOutAnimation(getActivity(), android.R.anim.slide_out_right);
+
+    }
+}
+
+
+
+
+
+
+        /*ViewPager viewPager = view.findViewById(R.id.view_pager);
         CustomSwipe customSwipe = new CustomSwipe(getActivity());
 
-        viewPager.setAdapter(customSwipe);
+        viewPager.setAdapter(customSwipe);*/
 
         /*Picasso.get().load("http://prankster101.com/newsite/wp-content/uploads/event-icon.png").fit().centerCrop().into((ImageView) view.findViewById(R.id.icon_events));
         Picasso.get().load("https://www.trzcacak.rs/myfile/full/197-1972262_carriers-win-big-with-uncrash-success-flat-icon.png").fit().centerCrop().into((ImageView) view.findViewById(R.id.icon_achievements));
@@ -98,5 +123,3 @@ public class HomeFragment extends Fragment {
                 Toast.makeText(getActivity(), "IEEE Resources", Toast.LENGTH_SHORT).show();
             }
         });*/
-    }
-}

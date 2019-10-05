@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:layout_height="match_parent"
-        tools:context=".Activities.TeamActivity">
+        tools:context=".Activities.AboutActivity">
 
     <com.google.android.material.appbar.AppBarLayout
             android:layout_width="match_parent"
@@ -23,7 +23,7 @@
 
             <ImageView
                     android:layout_width="match_parent"
-                    android:src="@drawable/background"
+                    android:src="@drawable/connect"
                     android:scaleType="centerCrop"
                     android:layout_height="180dp"/>
 
@@ -51,7 +51,6 @@
     <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
             android:id="@+id/background"
-            android:background="@drawable/background2"
             android:layout_height="match_parent"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
             tools:ignore="PrivateResource">
