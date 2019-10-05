@@ -25,7 +25,7 @@
                     android:layout_width="match_parent"
                     android:id="@+id/teambackground"
                     android:scaleType="centerCrop"
-                    android:layout_height="135dp"/>
+                    android:layout_height="158dp"/>
             
             <androidx.appcompat.widget.Toolbar
                     android:layout_width="match_parent"
@@ -49,9 +49,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
+
     <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="1dp"
             android:layout_height="wrap_content">
 
         <LinearLayout
@@ -96,7 +97,7 @@
 
     <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:layout_height="wrap_content">
 
         <LinearLayout
@@ -141,7 +142,7 @@
 
     <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:layout_height="wrap_content">
 
         <LinearLayout
@@ -186,7 +187,7 @@
 
             <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="5dp"
                     android:layout_height="wrap_content">
 
                 <LinearLayout
@@ -231,7 +232,7 @@
 
     <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:layout_height="wrap_content">
 
         <LinearLayout
@@ -277,7 +278,7 @@
 
             <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="5dp"
                     android:layout_height="wrap_content">
 
                 <LinearLayout
@@ -322,7 +323,7 @@
 
     <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:layout_height="wrap_content">
 
         <LinearLayout
@@ -367,7 +368,7 @@
 
             <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="5dp"
                     android:layout_height="wrap_content">
 
                 <LinearLayout
@@ -412,7 +413,7 @@
 
             <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="5dp"
                     android:layout_height="wrap_content">
 
                 <LinearLayout
@@ -457,7 +458,7 @@
 
             <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="5dp"
                     android:layout_height="wrap_content">
 
                 <LinearLayout
@@ -502,7 +503,7 @@
 
     <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:layout_height="wrap_content">
 
         <LinearLayout
@@ -547,7 +548,7 @@
 
             <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="5dp"
                     android:layout_height="wrap_content">
 
                 <LinearLayout
@@ -592,7 +593,7 @@
 
             <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="5dp"
                     android:layout_height="wrap_content">
 
                 <LinearLayout
@@ -637,7 +638,7 @@
 
     <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:layout_height="wrap_content">
 
         <LinearLayout
@@ -682,7 +683,7 @@
 
             <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="5dp"
                     android:layout_height="wrap_content">
 
                 <LinearLayout
@@ -727,7 +728,7 @@
 
             <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="5dp"
                     android:layout_height="wrap_content">
 
                 <LinearLayout
@@ -772,7 +773,7 @@
 
             <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="5dp"
                     android:layout_height="wrap_content">
 
                 <LinearLayout
@@ -817,7 +818,7 @@
 
             <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="5dp"
                     android:layout_height="wrap_content">
 
                 <LinearLayout
@@ -862,7 +863,7 @@
 
             <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="5dp"
                     android:layout_height="wrap_content">
 
                 <LinearLayout
