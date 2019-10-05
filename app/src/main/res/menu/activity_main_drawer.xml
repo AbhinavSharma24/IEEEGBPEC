@@ -25,6 +25,10 @@
                 android:icon="@drawable/ic_ieeenew1"
                 android:title="About IEEE"/>
         <item
+                android:id="@+id/nav_ieeeresources"
+                android:icon="@drawable/ic_resources"
+                android:title="IEEE Resources"/>
+        <item
                 android:id="@+id/nav_joinieee"
                 android:icon="@drawable/ic_group_add_black_24dp"
                 android:title="Join IEEE"/>
