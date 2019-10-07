@@ -23,7 +23,7 @@
 
             <ImageView
                     android:layout_width="match_parent"
-                    android:id="@+id/teambackground"
+                    android:id="@+id/teambackground2"
                     android:scaleType="centerCrop"
                     android:layout_height="158dp"/>
             
@@ -40,6 +40,7 @@
     <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
             android:id="@+id/background"
+            android:background="#DFDFDF"
             android:layout_height="match_parent"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
             tools:ignore="PrivateResource">
@@ -53,6 +54,9 @@
     <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_marginTop="1dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            app:cardCornerRadius="10dp"
             android:layout_height="wrap_content">
 
         <LinearLayout
@@ -98,6 +102,9 @@
     <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            app:cardCornerRadius="10dp"
             android:layout_height="wrap_content">
 
         <LinearLayout
@@ -143,6 +150,9 @@
     <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            app:cardCornerRadius="10dp"
             android:layout_height="wrap_content">
 
         <LinearLayout
@@ -188,6 +198,9 @@
             <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    app:cardCornerRadius="10dp"
                     android:layout_height="wrap_content">
 
                 <LinearLayout
@@ -233,6 +246,9 @@
     <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            app:cardCornerRadius="10dp"
             android:layout_height="wrap_content">
 
         <LinearLayout
@@ -279,6 +295,9 @@
             <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    app:cardCornerRadius="10dp"
                     android:layout_height="wrap_content">
 
                 <LinearLayout
@@ -324,6 +343,9 @@
     <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            app:cardCornerRadius="10dp"
             android:layout_height="wrap_content">
 
         <LinearLayout
@@ -369,6 +391,9 @@
             <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    app:cardCornerRadius="10dp"
                     android:layout_height="wrap_content">
 
                 <LinearLayout
@@ -414,6 +439,9 @@
             <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    app:cardCornerRadius="10dp"
                     android:layout_height="wrap_content">
 
                 <LinearLayout
@@ -459,6 +487,9 @@
             <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    app:cardCornerRadius="10dp"
                     android:layout_height="wrap_content">
 
                 <LinearLayout
@@ -504,6 +535,9 @@
     <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            app:cardCornerRadius="10dp"
             android:layout_height="wrap_content">
 
         <LinearLayout
@@ -549,6 +583,9 @@
             <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    app:cardCornerRadius="10dp"
                     android:layout_height="wrap_content">
 
                 <LinearLayout
@@ -594,6 +631,9 @@
             <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    app:cardCornerRadius="10dp"
                     android:layout_height="wrap_content">
 
                 <LinearLayout
@@ -639,6 +679,9 @@
     <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            app:cardCornerRadius="10dp"
             android:layout_height="wrap_content">
 
         <LinearLayout
@@ -684,6 +727,9 @@
             <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    app:cardCornerRadius="10dp"
                     android:layout_height="wrap_content">
 
                 <LinearLayout
@@ -729,6 +775,9 @@
             <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    app:cardCornerRadius="10dp"
                     android:layout_height="wrap_content">
 
                 <LinearLayout
@@ -774,6 +823,9 @@
             <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    app:cardCornerRadius="10dp"
                     android:layout_height="wrap_content">
 
                 <LinearLayout
@@ -819,6 +871,9 @@
             <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    app:cardCornerRadius="10dp"
                     android:layout_height="wrap_content">
 
                 <LinearLayout
@@ -864,6 +919,10 @@
             <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    app:cardCornerRadius="10dp"
                     android:layout_height="wrap_content">
 
                 <LinearLayout
