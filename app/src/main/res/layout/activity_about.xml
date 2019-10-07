@@ -51,6 +51,7 @@
     <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
             android:id="@+id/background"
+            android:background="#DFDFDF"
             android:layout_height="match_parent"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
             tools:ignore="PrivateResource">
@@ -73,6 +74,9 @@
             <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    app:cardCornerRadius="10dp"
                     android:layout_height="wrap_content">
 
 
@@ -106,6 +110,9 @@
             <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    app:cardCornerRadius="10dp"
                     android:layout_height="wrap_content">
 
                 <LinearLayout
@@ -138,6 +145,9 @@
             <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    app:cardCornerRadius="10dp"
                     android:layout_height="wrap_content">
 
                 <LinearLayout
@@ -170,6 +180,9 @@
             <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    app:cardCornerRadius="10dp"
                     android:layout_height="wrap_content">
 
                 <LinearLayout
@@ -213,7 +226,7 @@
                     android:layout_marginTop="5dp"
                     android:layout_gravity="center"
                     android:fontFamily="@font/mr_monstar"
-                    android:textSize="24sp"
+                    android:textSize="26sp"
                     android:textColor="@color/colorPrimaryDark"
                     android:layout_width="wrap_content"
                     android:text="ABHINAV SHARMA"

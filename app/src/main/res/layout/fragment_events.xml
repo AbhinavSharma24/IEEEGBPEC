@@ -1,14 +1,185 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        android:layout_width="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="#DFDFDF"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
-              android:layout_height="match_parent">
+              android:layout_height="wrap_content">
 
-    <Button
-            android:layout_marginTop="20dp"
-            android:id="@+id/btn_events"
-            android:text="Events Button"
-            android:layout_width="match_parent"
+    <TextView
+            android:text="Events"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="50dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/mr_monstar"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="10dp"
+            android:layout_height="265dp">
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/event1"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/error404"
+                android:layout_height="250dp"/>
+
+        <TextView
+                android:layout_below="@+id/event1"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:id="@+id/text1"
+                android:layout_marginTop="-5dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginLeft="8dp"
+                android:textSize="22dp"
+                android:text="Capsule Classes"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_below="@id/event1"
+                android:text="01/01/2019"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="10dp"
+            android:layout_height="265dp">
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="-20dp"
+                    android:id="@+id/event2"
+                    android:src="@drawable/error404"
+                    android:layout_height="250dp"/>
+
+            <TextView
+                    android:layout_below="@+id/event2"
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_marginTop="-5dp"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="22dp"
+                    android:text="Technovenza'19"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_below="@id/event2"
+                    android:text="01/01/2019"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="10dp"
+            android:layout_height="265dp">
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:id="@+id/event3"
+                    android:layout_marginTop="-20dp"
+                    android:src="@drawable/error404"
+                    android:layout_height="250dp"/>
+
+            <TextView
+                    android:layout_below="@+id/event3"
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="22dp"
+                    android:layout_marginTop="-5dp"
+                    android:text="Mock Placement"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_below="@id/event3"
+                    android:text="01/01/2019"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="10dp"
+            android:layout_height="265dp">
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:id="@+id/event4"
+                    android:layout_marginTop="-20dp"
+                    android:src="@drawable/error404"
+                    android:layout_height="250dp"/>
+
+            <TextView
+                    android:layout_below="@+id/event4"
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="22dp"
+                    android:layout_marginTop="-5dp"
+                    android:text="Guest Lectures"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_below="@id/event4"
+                    android:text="01/01/2019"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
 </LinearLayout>
+</ScrollView>

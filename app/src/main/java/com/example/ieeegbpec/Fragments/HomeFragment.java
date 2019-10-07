@@ -15,20 +15,20 @@ import com.example.ieeegbpec.R;
 public class HomeFragment extends Fragment {
 
     private ViewFlipper viewFlipper;
+    private int[] image_resources = {R.drawable.technology3, R.drawable.technology,
+            R.drawable.technology2, R.drawable.technology4};
 
     @SuppressLint("InflateParams")
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_home, null);
+
     }
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
-        int[] image_resources = {R.drawable.technology3, R.drawable.technology,
-                R.drawable.technology2, R.drawable.technology4};
 
         viewFlipper = view.findViewById(R.id.view_flipper);
 
@@ -44,6 +44,7 @@ public class HomeFragment extends Fragment {
         viewFlipper.addView(imageView);
         viewFlipper.setFlipInterval(3000);
         viewFlipper.setAutoStart(true);
+        viewFlipper.startFlipping();
 
         viewFlipper.setInAnimation(getActivity(), android.R.anim.slide_in_left);
         viewFlipper.setOutAnimation(getActivity(), android.R.anim.slide_out_right);
