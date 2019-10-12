@@ -9,6 +9,7 @@ import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.example.ieeegbpec.Fragments.*
 import com.example.ieeegbpec.R
@@ -89,6 +90,10 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             }
             R.id.nav_team -> {
                 startActivity(Intent(this@MainActivity, TeamActivity::class.java))
+            }
+            R.id.nav_testimonials -> {
+                //startActivity(Intent(this@MainActivity,TestimonialActivity::class.java))
+                Toast.makeText(this@MainActivity,"Uploading Soon",Toast.LENGTH_SHORT).show()
             }
             R.id.nav_aboutApp -> {
                 startActivity(Intent(this@MainActivity, AboutActivity::class.java))

@@ -18,7 +18,7 @@ class AboutActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         share_app.setOnClickListener {
-            Toast.makeText(this,"Feature coming soon !!!",Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,"Feature coming soon !!",Toast.LENGTH_SHORT).show()
         }
 
         website.setOnClickListener {
