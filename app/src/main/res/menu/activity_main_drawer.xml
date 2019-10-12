@@ -41,6 +41,10 @@
                     android:icon="@drawable/ic_group_black_24dp"
                     android:title="Our Team"/>
             <item
+                    android:id="@+id/nav_testimonials"
+                    android:icon="@drawable/ic_child_care_black_24dp"
+                    android:title="Testimonials"/>
+            <item
                     android:id="@+id/nav_aboutApp"
                     android:icon="@drawable/ic_about_app"
                     android:title="About App"/>
