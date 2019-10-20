@@ -30,7 +30,7 @@ public class EventsFragment extends Fragment {
         cardView8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getActivity(), "Seminar on Android Application Development by ABHINAV SHARMA", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), "Seminar on Android Application Development by ABHINAV SHARMA.", Toast.LENGTH_SHORT).show();
             }
         });
     }
