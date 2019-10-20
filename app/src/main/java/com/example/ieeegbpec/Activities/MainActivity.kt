@@ -55,11 +55,11 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.action_feedback -> {
-                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com")))
+                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.co.in")))
                 true
             }
             R.id.action_rateus -> {
-                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com")))
+                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.co.in")))
                 true
             }
             else ->
@@ -93,7 +93,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             }
             R.id.nav_testimonials -> {
                 //startActivity(Intent(this@MainActivity,TestimonialActivity::class.java))
-                Toast.makeText(this@MainActivity,"Uploading Soon",Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@MainActivity,"Uploading Soon !!!",Toast.LENGTH_SHORT).show()
             }
             R.id.nav_aboutApp -> {
                 startActivity(Intent(this@MainActivity, AboutActivity::class.java))

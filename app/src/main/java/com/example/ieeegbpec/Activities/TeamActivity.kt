@@ -16,6 +16,7 @@ class TeamActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         Picasso.get().load("http://www.thepbo.com/wp-content/uploads/2019/01/AdobeStock_177663020.jpeg").fit().centerCrop().into(teambackground2)
+
     }
 
     override fun onSupportNavigateUp(): Boolean {
