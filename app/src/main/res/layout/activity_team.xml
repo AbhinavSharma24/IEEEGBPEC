@@ -25,7 +25,7 @@
                     android:layout_width="match_parent"
                     android:id="@+id/teambackground2"
                     android:scaleType="centerCrop"
-                    android:layout_height="158dp"/>
+                    android:layout_height="258dp"/>
             
             <androidx.appcompat.widget.Toolbar
                     android:layout_width="match_parent"
@@ -147,7 +147,7 @@
 
     </androidx.cardview.widget.CardView>
 
-    <androidx.cardview.widget.CardView
+    <!--<androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_marginTop="5dp"
             android:layout_marginRight="5dp"
@@ -193,7 +193,7 @@
 
         </LinearLayout>
 
-    </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>-->
 
             <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
