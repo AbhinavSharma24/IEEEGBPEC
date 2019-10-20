@@ -42,7 +42,7 @@ public class HomeFragment extends Fragment {
         imageView.setBackgroundResource(image);
 
         viewFlipper.addView(imageView);
-        viewFlipper.setFlipInterval(3000);
+        viewFlipper.setFlipInterval(3001);
         viewFlipper.setAutoStart(true);
         viewFlipper.startFlipping();
 
