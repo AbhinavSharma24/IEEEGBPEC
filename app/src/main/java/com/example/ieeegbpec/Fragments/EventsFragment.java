@@ -11,6 +11,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
+
+import com.example.ieeegbpec.Activities.EventActivity;
 import com.example.ieeegbpec.R;
 
 public class EventsFragment extends Fragment {
@@ -30,6 +32,10 @@ public class EventsFragment extends Fragment {
         cardView8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                Intent intent = new Intent(getActivity(), EventActivity.class);
+                startActivity(intent);
+
                 Toast.makeText(getActivity(), "Seminar on Android Application Development by ABHINAV SHARMA", Toast.LENGTH_SHORT).show();
             }
         });
