@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Activities.EventActivity"
+        android:orientation="vertical">
+
+    <ViewFlipper
+            android:id="@+id/view_flipper2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/eventName"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30sp"
+            android:text="Seminar on Android Application Development"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:text="@string/text_lorem"
+            android:padding="5dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:textColor="#1a1a1a"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
