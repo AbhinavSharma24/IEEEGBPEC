@@ -65,10 +65,11 @@
                     android:layout_width="wrap_content"
                     android:id="@+id/eventName"
                     android:gravity="center"
+                    android:layout_gravity="center"
                     android:layout_marginTop="30dp"
+                    android:text="IEEE GBPEC Event"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="30sp"
-                    android:text="Seminar on Android Application Development"
                     android:textStyle="bold"
                     android:layout_height="wrap_content"/>
 

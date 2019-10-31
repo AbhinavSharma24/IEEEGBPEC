@@ -12,10 +12,10 @@
                 android:id="@+id/nav_events"
                 android:icon="@drawable/ic_event_black_24dp"
                 android:title="Events"/>
-        <item
+        <!--<item
                 android:id="@+id/nav_achievements"
                 android:icon="@drawable/ic_achieve_bw"
-                android:title="Achievements"/>
+                android:title="Achievements"/>-->
         <item
                 android:id="@+id/nav_projects"
                 android:icon="@drawable/ic_project_bw"
@@ -40,10 +40,12 @@
                     android:id="@+id/nav_team"
                     android:icon="@drawable/ic_group_black_24dp"
                     android:title="Our Team"/>
+<!--
             <item
                     android:id="@+id/nav_testimonials"
                     android:icon="@drawable/ic_child_care_black_24dp"
                     android:title="Testimonials"/>
+-->
             <item
                     android:id="@+id/nav_aboutApp"
                     android:icon="@drawable/ic_about_app"

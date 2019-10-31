@@ -44,15 +44,93 @@ public class EventsFragment extends Fragment {
         Picasso.get().load("https://lh3.googleusercontent.com/K7_R7MkGNWO0SMp3X1OcjszpBVJT4-hU8QM1L3POADdAf85YuI4IO2rjTwAWgkUg3dQpVdsqdX4Osw5WMaHzBj5lr6_2XOneapar0WGOa3xf51UkJI1x_zp3Up9UHSG8fcbWOKeNV0qDPKNxzHl1qegpPDMRVNDVxHX8FYY3I8-6R3oAQrxWx97wHZEbIdEmhWVa7S4RCvSq9MUd4Ul9DsRNKzkN9TEOr10usQiq1UBFcZm9rE4zQ16fVWPt2laQYwqod5GVcS7CcTqe3G1vev-SiQM1Q9zi58-2atKJVr-P2nlxo6gcNPciZVrwtUkEbVKkYpd9CGpcCC4six1i1fSalfVEKjzsGe67um0Mp3ybbnUjlj-fTi8JmrxYHdhuqPefboa6NP5Gnpj0Bmv0monKdvCes8oHublalfRDGC0b6Q-3tZrC1Tn-Yjh0rDt5X7d0Gzw2dqSE74QH1y4ZB7bolZ2qeusCuhzfQhfm-qw2rX7347oGXl8R-uR7YGeJXdLPba88X8DjrGUDPwe73JekthKxdSPtsRPSJ29MkGNgkLxpH77TFArX8oudni-1jPZF3DakBaXWNQ1w9gRuB0qMpCQrre5sD0eB5ItHNbf5RliQlttV11w-h5Wea9ag8f0mLK3KOsdQuLZmlmOAwc6YMxI8vesZyMIK91fVH6IBTiPqEyR22mM=w1138-h576-no").fit().centerCrop().into(imageView5);
         Picasso.get().load("https://lh3.googleusercontent.com/iSyp0ZyP-MQ7YWPfUOuCEI92yVsSPk0d09mCM1PakZoZUAW2fETzmh1LB_311e-I7esWZsTbG2vOKT3ZZlbWffAPm2ho0EeUXmHQvIKa10mUWK-k_0uhUGq1AL_5g5SEDMmzOKnn6wXMq0mV-l2nNlur0MDW11kjl7LXKZ8jPTFBPSDNz2Vt2uR18-SrsTiCT5eDgxfKDeBlJam0xuWtbRQaR5KTVjyknOpsiDDbOY-V9oyWmketgAqKbIa-z1Jvdzp1aGZ6nR4aQMLx_h1MTxJz2WDbAfb3bku6DYCvAfRuuGm3NmhW2ky66E0KQ6tn1RL2br8wiY1Wq7h-CHpmWp-Pg7-BUwGXbJJmMm4WCWV-lDJSsyJ2i9mH-fV8DKg8QaE5OrZjcC9-TCNBo0orodQN755QSinZsbf8MS1_8o5a04NCjBCGBNnPnBVASmrxDGVYrQyAQKEoGCUxNmAf7XkUJi3hoapkcv-jy6Xk7mFzO-9b_cw36Eg8mE-ZbUsUYWFPjW98GtLl9auah07CUiLFa0IWlAmOru_LZo1jPEt621DPiYjXB_wPzTb6vhXbHaVN7gCfCITtb7i1HUsg-Tl_NJspEHFvYwq2XDZqpFLPAfS__XzqCj-7CNhv8QTx0t0X2WluSb3WNo2SVhftMqlLNJK0w6kPShiq6XSkpdHsuliJbZ-EdEw=w455-h233-no").centerCrop().fit().into(imageView8);
 
-        CardView cardView8 = view.findViewById(R.id.card8);
+        final CardView cardView1 = view.findViewById(R.id.card1);
+        cardView1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), EventActivity.class);
+                intent.putExtra("eventNo", "1");
+                startActivity(intent);
+            }
+        });
+
+        final CardView cardView2 = view.findViewById(R.id.card2);
+        cardView2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), EventActivity.class);
+                intent.putExtra("eventNo", "2");
+                startActivity(intent);
+            }
+        });
+
+        final CardView cardView3 = view.findViewById(R.id.card3);
+        cardView3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), EventActivity.class);
+                intent.putExtra("eventNo", "3");
+                startActivity(intent);
+            }
+        });
+
+        final CardView cardView4 = view.findViewById(R.id.card4);
+        cardView4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), EventActivity.class);
+                intent.putExtra("eventNo", "4");
+                startActivity(intent);
+            }
+        });
+
+        final CardView cardView5 = view.findViewById(R.id.card5);
+        cardView5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), EventActivity.class);
+                intent.putExtra("eventNo", "5");
+                startActivity(intent);
+            }
+        });
+
+        final CardView cardView6 = view.findViewById(R.id.card6);
+        cardView6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), EventActivity.class);
+                intent.putExtra("eventNo", "6");
+                startActivity(intent);
+            }
+        });
+
+        final CardView cardView7 = view.findViewById(R.id.card7);
+        cardView7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), EventActivity.class);
+                intent.putExtra("eventNo", "7");
+                startActivity(intent);
+            }
+        });
+
+        final CardView cardView8 = view.findViewById(R.id.card8);
         cardView8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 Intent intent = new Intent(getActivity(), EventActivity.class);
+                intent.putExtra("eventNo", "8");
                 startActivity(intent);
+            }
+        });
 
-                Toast.makeText(getActivity(), "Seminar on Android Application Development by ABHINAV SHARMA", Toast.LENGTH_SHORT).show();
+        final CardView cardView9 = view.findViewById(R.id.card9);
+        cardView9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), EventActivity.class);
+                intent.putExtra("eventNo", "9");
+                startActivity(intent);
             }
         });
     }
