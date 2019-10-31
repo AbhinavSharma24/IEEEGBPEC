@@ -1,34 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
+        android:orientation="vertical"
         android:layout_height="match_parent"
-        tools:context=".Activities.EventActivity"
-        android:orientation="vertical">
+        tools:context=".Activities.AboutActivity">
 
-    <ViewFlipper
-            android:id="@+id/view_flipper2"
+    <com.google.android.material.appbar.AppBarLayout
             android:layout_width="match_parent"
-            android:layout_height="200dp"/>
+            android:id="@+id/appBarLayout"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:layout_height="wrap_content">
 
-    <TextView
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:layout_width="match_parent"
+                app:contentScrim="@color/colorPrimary"
+                app:title="Events"
+                app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:src="@drawable/events_activity"
+                    android:scaleType="centerCrop"
+                    android:layout_height="190dp"/>
+
+            <androidx.appcompat.widget.Toolbar
+                    android:layout_width="match_parent"
+                    android:id="@+id/toolbar"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+                    android:layout_height="?attr/actionBarSize"/>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!--<com.google.android.material.floatingactionbutton.FloatingActionButton
             android:layout_width="wrap_content"
-            android:id="@+id/eventName"
-            android:gravity="center"
-            android:layout_marginTop="10dp"
-            android:textColor="@color/colorPrimaryDark"
-            android:textSize="30sp"
-            android:text="Seminar on Android Application Development"
-            android:textStyle="bold"
-            android:layout_height="wrap_content"/>
+            android:src="@drawable/ic_menu_share"
+            android:id="@+id/share_app"
+            android:backgroundTint="#8F3131"
+            android:tint="#FFFFFF"
+            app:layout_anchor="@id/appBarLayout"
+            app:layout_anchorGravity="bottom|end|right"
+            android:layout_marginEnd="25dp"
+            android:layout_height="wrap_content"/>-->
 
-    <TextView
+    <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
-            android:text="@string/text_lorem"
-            android:padding="5dp"
-            android:layout_marginTop="20dp"
-            android:textSize="18sp"
-            android:textColor="#1a1a1a"
-            android:layout_height="wrap_content"/>
+            android:id="@+id/background"
+            android:background="#DFDFDF"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:ignore="PrivateResource">
 
-</LinearLayout>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/eventName"
+                    android:gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="30sp"
+                    android:text="Seminar on Android Application Development"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:text="@string/text_lorem"
+                    android:padding="5dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="18sp"
+                    android:textColor="#1a1a1a"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
