@@ -76,9 +76,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.nav_events -> {
                 fragment = EventsFragment()
             }
-            R.id.nav_achievements -> {
+            /*R.id.nav_achievements -> {
                 fragment = AchievementsFragment()
-            }
+            }*/
             R.id.nav_projects -> {
                 fragment = ProjectsFragment()
             }
@@ -91,10 +91,10 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.nav_team -> {
                 startActivity(Intent(this@MainActivity, TeamActivity::class.java))
             }
-            R.id.nav_testimonials -> {
+            /*R.id.nav_testimonials -> {
                 //startActivity(Intent(this@MainActivity,TestimonialActivity::class.java))
                 Toast.makeText(this@MainActivity,"Uploading Soon !!",Toast.LENGTH_SHORT).show()
-            }
+            }*/
             R.id.nav_aboutApp -> {
                 startActivity(Intent(this@MainActivity, AboutActivity::class.java))
             }
