@@ -76,14 +76,13 @@
                     android:layout_width="match_parent"
                     android:id="@+id/event8"
                     android:layout_marginTop="-20dp"
-                    android:src="@drawable/event8_2"
-                    android:layout_height="250dp"/>
+                    android:layout_height="240dp"/>
 
             <TextView
                     android:layout_below="@+id/event8"
                     android:layout_width="wrap_content"
                     android:textStyle="bold"
-                    android:layout_marginTop="-5dp"
+                    android:layout_marginTop="5dp"
                     android:textColor="@color/colorPrimaryDark"
                     android:layout_marginLeft="8dp"
                     android:textSize="19dp"
@@ -94,6 +93,7 @@
                     android:layout_width="wrap_content"
                     android:layout_below="@id/event8"
                     android:text="16/10/2019"
+                    android:layout_marginTop="9dp"
                     android:layout_marginRight="10dp"
                     android:layout_alignParentEnd="true"
                     android:layout_height="wrap_content"/>
@@ -196,15 +196,14 @@
                     android:layout_width="match_parent"
                     android:layout_marginTop="-24dp"
                     android:id="@+id/event5"
-                    android:src="@drawable/event5"
-                    android:layout_height="250dp"/>
+                    android:layout_height="240dp"/>
 
             <TextView
                     android:layout_below="@+id/event5"
                     android:layout_width="wrap_content"
                     android:textStyle="bold"
                     android:textColor="@color/colorPrimaryDark"
-                    android:layout_marginTop="-8dp"
+                    android:layout_marginTop="5dp"
                     android:layout_marginLeft="8dp"
                     android:textSize="20dp"
                     android:text="Mock Placement"
@@ -214,6 +213,7 @@
                     android:layout_width="wrap_content"
                     android:layout_below="@id/event5"
                     android:text="08/04/2019"
+                    android:layout_marginTop="8dp"
                     android:layout_marginRight="10dp"
                     android:layout_alignParentEnd="true"
                     android:layout_height="wrap_content"/>
@@ -236,8 +236,7 @@
                     android:layout_width="match_parent"
                     android:id="@+id/event4"
                     android:layout_marginTop="-20dp"
-                    android:src="@drawable/event4"
-                    android:layout_height="250dp"/>
+                    android:layout_height="240dp"/>
 
             <TextView
                     android:layout_below="@+id/event4"
@@ -246,7 +245,7 @@
                     android:layout_marginLeft="8dp"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="20dp"
-                    android:layout_marginTop="-5dp"
+                    android:layout_marginTop="5dp"
                     android:text="Seminar on Machine Learning"
                     android:layout_height="wrap_content"/>
 
@@ -254,6 +253,7 @@
                     android:layout_width="wrap_content"
                     android:layout_below="@id/event4"
                     android:text="27/03/2019"
+                    android:layout_marginTop="8dp"
                     android:layout_marginRight="10dp"
                     android:layout_alignParentEnd="true"
                     android:layout_height="wrap_content"/>
@@ -316,15 +316,14 @@
                     android:layout_width="match_parent"
                     android:id="@+id/event2"
                     android:layout_marginTop="-20dp"
-                    android:src="@drawable/event2"
-                    android:layout_height="250dp"/>
+                    android:layout_height="240dp"/>
 
             <TextView
                     android:layout_below="@+id/event2"
                     android:layout_width="wrap_content"
                     android:textStyle="bold"
                     android:id="@+id/text2"
-                    android:layout_marginTop="-5dp"
+                    android:layout_marginTop="5dp"
                     android:textColor="@color/colorPrimaryDark"
                     android:layout_marginLeft="8dp"
                     android:textSize="20dp"
@@ -335,6 +334,7 @@
                     android:layout_width="wrap_content"
                     android:layout_below="@id/event2"
                     android:text="13/02/2019"
+                    android:layout_marginTop="8dp"
                     android:layout_marginRight="10dp"
                     android:layout_alignParentEnd="true"
                     android:layout_height="wrap_content"/>
@@ -357,15 +357,14 @@
                     android:layout_width="match_parent"
                     android:id="@+id/event1"
                     android:layout_marginTop="-20dp"
-                    android:src="@drawable/event1"
-                    android:layout_height="250dp"/>
+                    android:layout_height="240dp"/>
 
             <TextView
                     android:layout_below="@+id/event1"
                     android:layout_width="wrap_content"
                     android:textStyle="bold"
                     android:id="@+id/text1"
-                    android:layout_marginTop="-5dp"
+                    android:layout_marginTop="5dp"
                     android:textColor="@color/colorPrimaryDark"
                     android:layout_marginLeft="8dp"
                     android:textSize="20dp"
@@ -376,6 +375,7 @@
                     android:layout_width="wrap_content"
                     android:layout_below="@id/event1"
                     android:text="08/02/2019"
+                    android:layout_marginTop="8dp"
                     android:layout_marginRight="10dp"
                     android:layout_alignParentEnd="true"
                     android:layout_height="wrap_content"/>
