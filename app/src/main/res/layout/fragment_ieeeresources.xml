@@ -1,14 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:tools="http://schemas.android.com/tools"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent"
-             tools:context=".Fragments.IEEEResourcesFragment">
+<ScrollView
+        android:layout_width="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="#DFDFDF"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/hello_blank_fragment"/>
+            android:layout_height="wrap_content">
 
-</FrameLayout>
+        <TextView
+                android:text="IEEE Resources"
+                android:layout_gravity="center"
+                android:textColor="#121C53"
+                android:textSize="35sp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/mr_monstar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:id="@+id/Rcard1"
+                app:cardCornerRadius="10dp"
+                android:layout_height="300dp">
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:id="@+id/resources1"
+                        android:layout_marginTop="-20dp"
+                        android:layout_height="250dp"/>
+
+                <TextView
+                        android:layout_below="@+id/resources1"
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_marginLeft="8dp"
+                        android:text="IEEE Collabractec is an integrated online community where technology professionals can network, collaborate, and create - all in one central hub."
+                        android:layout_height="wrap_content"/>
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:id="@+id/Rcard2"
+                app:cardCornerRadius="10dp"
+                android:layout_height="300dp">
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:id="@+id/resources2"
+                        android:layout_marginTop="-20dp"
+                        android:layout_height="250dp"/>
+
+                <TextView
+                        android:layout_below="@+id/resources2"
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_marginLeft="8dp"
+                        android:text="IEEE Xplore Digital Library is a powerful resource for discovery of and access to scientific and technical content published by the IEEE and its publishing partners."
+                        android:layout_height="wrap_content"/>
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:id="@+id/Rcard3"
+                app:cardCornerRadius="10dp"
+                android:layout_height="300dp">
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:id="@+id/resources3"
+                        android:layout_marginTop="-20dp"
+                        android:layout_height="250dp"/>
+
+                <TextView
+                        android:layout_below="@+id/resources3"
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_marginLeft="8dp"
+                        android:text="IEEE Transmitter, in this you will find a collection of articles, videos, infographics, inspiration and more all curated by IEEE."
+                        android:layout_height="wrap_content"/>
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:id="@+id/Rcard4"
+                app:cardCornerRadius="10dp"
+                android:layout_height="290dp">
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:id="@+id/resources4"
+                        android:layout_marginTop="-20dp"
+                        android:layout_height="250dp"/>
+
+                <TextView
+                        android:layout_below="@+id/resources4"
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="-4dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_marginLeft="8dp"
+                        android:text="IEEE ResumeLab is an online service that allows IEEE members to develop a resume or curriculum vitae using a wide range of resume templates."
+                        android:layout_height="wrap_content"/>
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
