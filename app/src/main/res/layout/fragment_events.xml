@@ -35,7 +35,7 @@
                     android:layout_width="match_parent"
                     android:id="@+id/event9"
                     android:layout_marginTop="-20dp"
-                    android:src="@drawable/error404"
+                    android:src="@drawable/event9_2"
                     android:layout_height="250dp"/>
 
             <TextView
@@ -75,6 +75,9 @@
             <ImageView
                     android:layout_width="match_parent"
                     android:id="@+id/event8"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/event8_2"
                     android:layout_marginTop="-20dp"
                     android:layout_height="240dp"/>
 
@@ -128,7 +131,7 @@
                     android:textColor="@color/colorPrimaryDark"
                     android:layout_marginLeft="8dp"
                     android:textSize="20dp"
-                    android:text="Seminar on Data Structures(2)"
+                    android:text="Let's Talk Tech"
                     android:layout_height="wrap_content"/>
 
             <TextView
@@ -199,6 +202,9 @@
                     android:layout_width="match_parent"
                     android:layout_marginTop="-24dp"
                     android:id="@+id/event5"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/event5"
                     android:layout_height="240dp"/>
 
             <TextView
@@ -239,6 +245,9 @@
             <ImageView
                     android:layout_width="match_parent"
                     android:id="@+id/event4"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/event4"
                     android:layout_marginTop="-20dp"
                     android:layout_height="240dp"/>
 
@@ -321,6 +330,9 @@
             <ImageView
                     android:layout_width="match_parent"
                     android:id="@+id/event2"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/event2"
                     android:layout_marginTop="-20dp"
                     android:layout_height="240dp"/>
 
@@ -363,6 +375,9 @@
             <ImageView
                     android:layout_width="match_parent"
                     android:id="@+id/event1"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/event1"
                     android:layout_marginTop="-20dp"
                     android:layout_height="240dp"/>
 
