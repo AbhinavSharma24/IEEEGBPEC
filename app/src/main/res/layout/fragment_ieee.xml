@@ -15,11 +15,13 @@
             android:orientation="vertical">
 
         <ImageView
-                android:src="@drawable/technology3"
+                android:src="@drawable/ieeebanner"
                 android:id="@+id/ieee_image_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:scaleType="fitStart"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
                 android:adjustViewBounds="true"/>
 
         <TextView

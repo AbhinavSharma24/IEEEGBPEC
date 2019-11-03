@@ -1,15 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
+<ScrollView
+        android:layout_width="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="#DFDFDF"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <TextView
-            android:gravity="center"
-            android:text="Projects uploading soon !!"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:textSize="25sp"
-            android:layout_height="match_parent"
-            tools:ignore="HardcodedText"/>
+            android:layout_height="wrap_content">
 
-</LinearLayout>
+        <TextView
+                android:text="Projects"
+                android:layout_gravity="center"
+                android:textColor="#121C53"
+                android:textSize="50dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/mr_monstar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:id="@+id/card9"
+                app:cardCornerRadius="10dp"
+                android:layout_height="265dp">
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:id="@+id/event9"
+                        android:layout_marginTop="-20dp"
+                        android:src="@drawable/error404"
+                        android:layout_height="250dp"/>
+
+                <TextView
+                        android:layout_below="@+id/event9"
+                        android:layout_width="wrap_content"
+                        android:textStyle="bold"
+                        android:layout_marginTop="-5dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_marginLeft="8dp"
+                        android:textSize="19dp"
+                        android:text="Online Hackathon"
+                        android:layout_height="wrap_content"/>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_below="@id/event9"
+                        android:text="19/10/2019"
+                        android:layout_marginRight="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

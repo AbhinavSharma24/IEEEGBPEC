@@ -85,6 +85,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.nav_ieee -> {
                 fragment = IEEEFragment()
             }
+            R.id.nav_ieeeresources -> {
+                fragment = IEEEResourcesFragment()
+            }
             R.id.nav_joinieee -> {
                 startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.ieee.org/membership/join/index.html?WT.mc_id=hc_join")))
             }
