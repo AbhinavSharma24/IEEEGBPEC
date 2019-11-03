@@ -26,7 +26,9 @@
 
         <TextView
                 android:textColor="@color/colorPrimaryDark"
-                android:text="@string/text_lorem"
+                android:text="IEEE GBPEC is a student branch chapter of IEEE, G. B. Pant Government Engineering College under the Asia-Pacific region. Originally started in 2014, IEEE-GBPEC aims to foster technological development and competitiveness amongst technocrats.
+At IEEE- GBPEC, we aim to inspire creative minds, to thrive into a societal revolution.
+Through our methodical approach towards cutting edge technology, we strive to ignite sparks of smart geeking in future engineers. "
                 android:padding="7dp"
                 android:layout_marginTop="15dp"
                 android:textSize="18sp"
@@ -54,7 +56,7 @@
                 android:layout_height="wrap_content"/>
 
         <TextView
-                android:text="@string/text_lorem"
+                android:text="After successfully reviving the society in the year 2018, IEEE-GBPEC has initiated and organized a series of events at both college and regional levels. From Mock placements to Global Online Hackathon, IEEE-GBPEC has put forward the winning attitude in a significant section of students."
                 android:padding="8dp"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="18sp"
@@ -63,7 +65,7 @@
 
         <TextView
                 android:textColor="@color/colorPrimaryDark"
-                android:text="@string/text_lorem"
+                android:text="Since it's inception in 2014, IEEE-GBPEC has left no stones unturned in delivering the best guest lecturers from esteemed laureates across the nation. Past the year of a considerable revival, IEEE-GBPEC has inaugurated its flagship Inter-college event, Technovenza. From Machine Learning to Artificial Intelligence, IEEE-GBPEC has facilitated dozens of free-hand workshop programs within a year."
                 android:padding="8dp"
                 android:textSize="18sp"
                 android:layout_width="match_parent"
@@ -77,7 +79,10 @@
 
         <TextView
                 android:textColor="@color/colorPrimaryDark"
-                android:text="@string/text_lorem"
+                android:text="Moreover, the student committee is tirelessly working towards creating a profound IEEE legacy by connection senior mentors and juniors with IEEE-Capsule Sessions. The sesions are delivered by seniors with specialisation in a number of technical trends like Machine Learning, Android Development, Career after engineering, Data Science and many more. The hourly sessions generates a spirit of innovation and power amongst students.
+Other events organised by IEEE-GBPEC are;
+Hackathon, Capsule Sessions, free-hand workshops on Alexa, amazon AI, Mock placement, Executive Committee placements, Technical Quiz, Coding competitions and Technical Debate.
+IEEE-GBPEC works towards building a sense of perfection and strives to create a community of advanced Technogeeks for later years."
                 android:padding="8dp"
                 android:textSize="18sp"
                 android:layout_width="match_parent"
