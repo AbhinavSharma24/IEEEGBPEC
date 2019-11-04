@@ -108,7 +108,7 @@ class EventActivity : AppCompatActivity() {
             eventName.text = "Online Hackathon"
             eventDes.text = "Do you feel an inclination to coding? Do you know how to code and want to test your skills? Then here's a chance to prove yourself.\n" + "\n" +
                     "IEEE GBPEC STUDENT CHAPTER organised one of the most exciting online, open-for-all, 48 hour hackathon...\n" +
-                    "It is organised with the collaboration with Coding Blocks on 19th october, 2019. Theme for Online Hackathon : JOKER VS BATMAN."
+                    "It was organised with the collaboration with Coding Blocks on 19th october, 2019. Theme for Online Hackathon : JOKER VS BATMAN."
         }
 
     }

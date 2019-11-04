@@ -35,14 +35,13 @@
                     android:layout_width="match_parent"
                     android:id="@+id/event9"
                     android:layout_marginTop="-20dp"
-                    android:src="@drawable/event9_2"
                     android:layout_height="250dp"/>
 
             <TextView
                     android:layout_below="@+id/event9"
                     android:layout_width="wrap_content"
                     android:textStyle="bold"
-                    android:layout_marginTop="-5dp"
+                    android:layout_marginTop="5dp"
                     android:textColor="@color/colorPrimaryDark"
                     android:layout_marginLeft="8dp"
                     android:textSize="19dp"
@@ -53,6 +52,7 @@
                     android:layout_width="wrap_content"
                     android:layout_below="@id/event9"
                     android:text="19/10/2019"
+                    android:layout_marginTop="5dp"
                     android:layout_marginRight="10dp"
                     android:layout_alignParentEnd="true"
                     android:layout_height="wrap_content"/>
@@ -77,7 +77,6 @@
                     android:id="@+id/event8"
                     android:scaleType="fitCenter"
                     android:adjustViewBounds="true"
-                    android:src="@drawable/event8_2"
                     android:layout_marginTop="-20dp"
                     android:layout_height="240dp"/>
 
@@ -122,14 +121,13 @@
                     android:scaleType="fitCenter"
                     android:adjustViewBounds="true"
                     android:layout_marginTop="-20dp"
-                    android:src="@drawable/event7"
                     android:layout_height="250dp"/>
 
             <TextView
                     android:layout_below="@+id/event7"
                     android:layout_width="wrap_content"
                     android:textStyle="bold"
-                    android:layout_marginTop="-5dp"
+                    android:layout_marginTop="5dp"
                     android:textColor="@color/colorPrimaryDark"
                     android:layout_marginLeft="8dp"
                     android:textSize="20dp"
@@ -139,6 +137,7 @@
             <TextView
                     android:layout_width="wrap_content"
                     android:layout_below="@id/event7"
+                    android:layout_marginTop="5dp"
                     android:text="03/10/2019"
                     android:layout_marginRight="10dp"
                     android:layout_alignParentEnd="true"
@@ -165,14 +164,13 @@
                 android:scaleType="fitCenter"
                 android:adjustViewBounds="true"
                 android:layout_marginTop="-20dp"
-                android:src="@drawable/event6"
                 android:layout_height="250dp"/>
 
         <TextView
                 android:layout_below="@+id/event6"
                 android:layout_width="wrap_content"
                 android:textStyle="bold"
-                android:layout_marginTop="-5dp"
+                android:layout_marginTop="5dp"
                 android:textColor="@color/colorPrimaryDark"
                 android:layout_marginLeft="8dp"
                 android:textSize="20dp"
@@ -183,6 +181,7 @@
                 android:layout_width="wrap_content"
                 android:layout_below="@id/event6"
                 android:text="09/04/2019"
+                android:layout_marginTop="5dp"
                 android:layout_marginRight="10dp"
                 android:layout_alignParentEnd="true"
                 android:layout_height="wrap_content"/>
@@ -208,7 +207,6 @@
                     android:id="@+id/event5"
                     android:scaleType="fitCenter"
                     android:adjustViewBounds="true"
-                    android:src="@drawable/event5"
                     android:layout_height="240dp"/>
 
             <TextView
@@ -251,7 +249,6 @@
                     android:id="@+id/event4"
                     android:scaleType="fitCenter"
                     android:adjustViewBounds="true"
-                    android:src="@drawable/event4"
                     android:layout_marginTop="-20dp"
                     android:layout_height="240dp"/>
 
@@ -284,7 +281,7 @@
             android:layout_margin="8dp"
             android:id="@+id/card3"
             app:cardCornerRadius="10dp"
-            android:layout_height="265dp">
+            android:layout_height="280dp">
 
         <RelativeLayout
                 android:layout_width="match_parent"
@@ -293,11 +290,9 @@
             <ImageView
                     android:layout_width="match_parent"
                     android:id="@+id/event3"
-                    android:scaleType="fitCenter"
                     android:adjustViewBounds="true"
                     android:layout_marginTop="-20dp"
-                    android:src="@drawable/event3"
-                    android:layout_height="250dp"/>
+                    android:layout_height="260dp"/>
 
             <TextView
                     android:layout_below="@+id/event3"
@@ -306,7 +301,7 @@
                     android:layout_marginLeft="8dp"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="20dp"
-                    android:layout_marginTop="-5dp"
+                    android:layout_marginTop="5dp"
                     android:text="Technovenza'19"
                     android:layout_height="wrap_content"/>
 
@@ -314,6 +309,7 @@
                     android:layout_width="wrap_content"
                     android:layout_below="@id/event3"
                     android:text="06/03/2019"
+                    android:layout_marginTop="5dp"
                     android:layout_marginRight="10dp"
                     android:layout_alignParentEnd="true"
                     android:layout_height="wrap_content"/>
@@ -338,7 +334,6 @@
                     android:id="@+id/event2"
                     android:scaleType="fitCenter"
                     android:adjustViewBounds="true"
-                    android:src="@drawable/event2"
                     android:layout_marginTop="-20dp"
                     android:layout_height="240dp"/>
 
@@ -383,7 +378,6 @@
                     android:id="@+id/event1"
                     android:scaleType="fitCenter"
                     android:adjustViewBounds="true"
-                    android:src="@drawable/event1"
                     android:layout_marginTop="-20dp"
                     android:layout_height="240dp"/>
 

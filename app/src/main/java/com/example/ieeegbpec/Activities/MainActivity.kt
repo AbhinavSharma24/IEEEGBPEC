@@ -55,7 +55,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.action_feedback -> {
-                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com")))
+                val i = Intent(Intent.ACTION_SENDTO, Uri.parse("mailto: abhinavsharma2499@gmail.com"))
+                i.putExtra(Intent.EXTRA_SUBJECT,"Regarding IEEE GBPEC Application")
+                startActivity(Intent.createChooser(i,"Send Email"))
                 true
             }
             R.id.action_rateus -> {
