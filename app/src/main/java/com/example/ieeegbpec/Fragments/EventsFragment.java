@@ -13,9 +13,12 @@ import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
+import com.bumptech.glide.Glide;
 import com.example.ieeegbpec.Activities.EventActivity;
 import com.example.ieeegbpec.R;
 import com.squareup.picasso.Picasso;
+
+import java.util.Objects;
 
 public class EventsFragment extends Fragment {
 
@@ -43,7 +46,7 @@ public class EventsFragment extends Fragment {
         imageView9 = view.findViewById(R.id.event9);
 
 
-        Picasso.get().load("https://github.com/AbhinavSharma24/CBdemoHacktoberFest/blob/master/event1.jpg?raw=true")
+        /*Picasso.get().load("https://github.com/AbhinavSharma24/CBdemoHacktoberFest/blob/master/event1.jpg?raw=true")
                 .centerCrop().fit().placeholder(R.drawable.loading4).into(imageView1);
         Picasso.get().load("https://github.com/AbhinavSharma24/CBdemoHacktoberFest/blob/master/event2.jpeg?raw=true")
                 .centerCrop().fit().placeholder(R.drawable.loading4).into(imageView2);
@@ -60,7 +63,27 @@ public class EventsFragment extends Fragment {
         Picasso.get().load("https://github.com/AbhinavSharma24/CBdemoHacktoberFest/blob/master/event8_2.jpg?raw=true")
                 .centerCrop().fit().placeholder(R.drawable.loading4).into(imageView8);
         Picasso.get().load("https://github.com/AbhinavSharma24/CBdemoHacktoberFest/blob/master/event9_2.png?raw=true")
-                .centerCrop().fit().placeholder(R.drawable.loading4).into(imageView9);
+                .centerCrop().fit().placeholder(R.drawable.loading4).into(imageView9);*/
+
+
+        Glide.with(Objects.requireNonNull(getActivity())).load("https://github.com/AbhinavSharma24/CBdemoHacktoberFest/blob/master/event1.jpg?raw=true")
+                .fitCenter().placeholder(R.drawable.loading4).into(imageView1);
+        Glide.with(Objects.requireNonNull(getActivity())).load("https://github.com/AbhinavSharma24/CBdemoHacktoberFest/blob/master/event2.jpeg?raw=true")
+                .fitCenter().placeholder(R.drawable.loading4).into(imageView2);
+        Glide.with(Objects.requireNonNull(getActivity())).load("https://github.com/AbhinavSharma24/CBdemoHacktoberFest/blob/master/event3%20-%20Copy.png?raw=true")
+                .fitCenter().placeholder(R.drawable.loading4).into(imageView3);
+        Glide.with(Objects.requireNonNull(getActivity())).load("https://github.com/AbhinavSharma24/CBdemoHacktoberFest/blob/master/event4.jpg?raw=true")
+                .fitCenter().placeholder(R.drawable.loading4).into(imageView4);
+        Glide.with(Objects.requireNonNull(getActivity())).load("https://github.com/AbhinavSharma24/CBdemoHacktoberFest/blob/master/event5.jpg?raw=true")
+                .fitCenter().placeholder(R.drawable.loading4).into(imageView5);
+        Glide.with(Objects.requireNonNull(getActivity())).load("https://github.com/AbhinavSharma24/CBdemoHacktoberFest/blob/master/event6.jpg?raw=true")
+                .fitCenter().placeholder(R.drawable.loading4).into(imageView6);
+        Glide.with(Objects.requireNonNull(getActivity())).load("https://github.com/AbhinavSharma24/CBdemoHacktoberFest/blob/master/event7%20-%20Copy.png?raw=true")
+                .fitCenter().placeholder(R.drawable.loading4).into(imageView7);
+        Glide.with(Objects.requireNonNull(getActivity())).load("https://github.com/AbhinavSharma24/CBdemoHacktoberFest/blob/master/event8_2.jpg?raw=true")
+                .fitCenter().placeholder(R.drawable.loading4).into(imageView8);
+        Glide.with(Objects.requireNonNull(getActivity())).load("https://github.com/AbhinavSharma24/CBdemoHacktoberFest/blob/master/event9_2.png?raw=true")
+                .fitCenter().placeholder(R.drawable.loading4).into(imageView9);
 
 
         final CardView cardView1 = view.findViewById(R.id.card1);

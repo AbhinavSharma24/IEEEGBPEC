@@ -21,46 +21,170 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
+        <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/event9"
+                android:padding="12dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/projectfrag"
+                android:layout_height="250dp"/>
+
         <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_margin="8dp"
-                android:id="@+id/card9"
+                android:layout_margin="12dp"
                 app:cardCornerRadius="10dp"
-                android:layout_height="265dp">
-
-            <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                <ImageView
-                        android:layout_width="match_parent"
-                        android:id="@+id/event9"
-                        android:layout_marginTop="-20dp"
-                        android:src="@drawable/error404"
-                        android:layout_height="250dp"/>
+                android:layout_height="60dp">
 
                 <TextView
-                        android:layout_below="@+id/event9"
                         android:layout_width="wrap_content"
                         android:textStyle="bold"
-                        android:layout_marginTop="-5dp"
+                        android:layout_marginTop="9dp"
                         android:textColor="@color/colorPrimaryDark"
                         android:layout_marginLeft="8dp"
                         android:textSize="19dp"
-                        android:text="Online Hackathon"
+                        android:text="Cat vs Dog classification using CNN"
                         android:layout_height="wrap_content"/>
 
                 <TextView
                         android:layout_width="wrap_content"
-                        android:layout_below="@id/event9"
-                        android:text="19/10/2019"
+                        android:text="Pranjal Sharma"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="33dp"
                         android:layout_marginRight="10dp"
-                        android:layout_alignParentEnd="true"
                         android:layout_height="wrap_content"/>
 
-            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="10dp"
+                android:layout_height="60dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginTop="9dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="19dp"
+                    android:text="Guftagoo ChatApp using Firebase"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Abhinav Sharma"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="33dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="wrap_content"/>
 
         </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="10dp"
+                android:layout_height="60dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginTop="9dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="19dp"
+                    android:text="Arduino+Bluetooth controlled robot crane"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Pradyumn Upadhyay"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="33dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="10dp"
+                android:layout_height="60dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginTop="9dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="18dp"
+                    android:text="Mobility Assistant for Visually Impaired IITD"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Pranjal Sharma"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="33dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="10dp"
+                android:layout_height="60dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginTop="9dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="19dp"
+                    android:text="Truck Assist Application"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Abhinav Sharma"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="33dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="10dp"
+                android:layout_height="60dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginTop="9dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="17dp"
+                    android:text="Space Shooter Game for multiplatform in python"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Pradhyumn Upadhyay"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="33dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
 
     </LinearLayout>
 </ScrollView>
